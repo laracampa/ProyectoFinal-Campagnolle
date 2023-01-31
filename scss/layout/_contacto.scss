@@ -1,0 +1,28 @@
+.contacto{
+    height: 50%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    .form1{
+        @include formato(1%, 1%, 80%)
+    }
+    .form2{
+        @include formato(1%, 1%, 39%)
+    }
+    .form3{
+        @include formato(1%, 1%, 39%)
+    }
+    .form4{
+        @include formato(1%, 1%, 25.5%)
+    }
+    .form5{
+        @include formato(1%, 1%, 25.5%)
+    }
+    .form6{
+        @include formato(1%, 1%, 25.5%)
+    }
+    .form7{
+        @include formato(1%, 1%, 80%)
+    }
+}
+

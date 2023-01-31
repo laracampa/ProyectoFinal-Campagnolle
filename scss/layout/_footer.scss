@@ -1,0 +1,29 @@
+.footer-background {
+    background: linear-gradient(0deg, rgba(209,171,98,1) 4%, rgba(226,192,126,1) 11%, rgba(227,204,159,1) 34%, rgba(223,209,181,1) 57%, rgba(223,209,181,0.8071428400461748) 86%, rgba(240,234,223,0.6474789744999563) 99%);
+    width: 100%;
+    .footer{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        justify-items: center;
+        align-items: center;
+        .footer1{
+            padding: 30px;
+            font-size: small;
+            width: 33%;
+            section{
+                display: flex;
+                gap: 5%;
+            }
+        }
+        .footer2{
+            width: 33%;
+        }
+        .footer3{
+            padding: 30px;
+            text-align: center;
+            font-size: small;
+            width: 33%;
+        }
+    }
+}

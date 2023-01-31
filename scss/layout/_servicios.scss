@@ -1,0 +1,19 @@
+.servicios{
+    width: 100%;
+    display: flex;
+    background-image: url(../assets/img/lavanda.jpeg);
+    background-size: cover;
+    flex-direction: column;
+    .servicios-info{
+        margin: 5% 20% 5% 20%;
+        padding-bottom: 5%;
+        text-align: center;
+        background-color: rgba(240,234,223,0.6474789744999563);
+        ul{
+            margin: 2% 10% 2% 10%;
+            list-style: none;
+            line-height: 200%;
+            background-color: rgba(240, 234, 223, 0.938);
+        }
+    }
+}

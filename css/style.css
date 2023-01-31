@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Raleway:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Raleway:wght@100;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+* {
+  font-family: 'Oooh Baby', cursive;
+  font-family: 'Raleway', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-right: 6px; }
+
+h1 {
+  text-align: center;
+  font-family: 'Oooh Baby', cursive;
+  font-size: xx-large;
+  line-height: 100px; }
+
+h2 {
+  text-align: center; }
+
+h3 {
+  text-align: right;
+  font-family: 'Oooh Baby', cursive;
+  padding-right: 2%;
+  font-size: 25px; }
+
+.footer-background {
+  background: linear-gradient(0deg, #d1ab62 4%, #e2c07e 11%, #e3cc9f 34%, #dfd1b5 57%, rgba(223, 209, 181, 0.807143) 86%, rgba(240, 234, 223, 0.647479) 99%);
+  width: 100%; }
+  .footer-background .footer {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center; }
+    .footer-background .footer .footer1 {
+      padding: 30px;
+      font-size: small;
+      width: 33%; }
+      .footer-background .footer .footer1 section {
+        display: flex;
+        gap: 5%; }
+    .footer-background .footer .footer2 {
+      width: 33%; }
+    .footer-background .footer .footer3 {
+      padding: 30px;
+      text-align: center;
+      font-size: small;
+      width: 33%; }
+
+header {
+  height: 30%;
+  width: 100%;
+  padding-left: 2%;
+  align-items: center;
+  background: #dfd1b5;
+  background: linear-gradient(0deg, rgba(240, 234, 223, 0.647) 4%, rgba(223, 209, 181, 0.807143) 15%, #dfd1b5 34%, #e3cc9f 57%, #e2c07e 86%, #d1ab62 99%);
+  display: flex;
+  justify-content: space-around; }
+  header .logo {
+    width: 33%;
+    -webkit-animation: flip-vertical-right 0.5s ease-in reverse both;
+    animation: flip-vertical-right 0.5s ease-in reverse both; }
+
+@-webkit-keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0); }
+  100% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg); } }
+
+@keyframes flip-vertical-right {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0); }
+  100% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg); } }
+  header .navbar {
+    width: 100%; }
+    header .navbar ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      font-size: large;
+      gap: 10%; }
+      header .navbar ul a:hover {
+        text-decoration: underline;
+        text-decoration-color: #146314;
+        text-decoration-thickness: 2px; }
+  header .dropdown {
+    position: relative;
+    display: none; }
+    header .dropdown .drop-botton {
+      padding: 16px;
+      font-size: 16px;
+      border: none; }
+    header .dropdown .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1; }
+      header .dropdown .dropdown-content .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block; }
+      header .dropdown .dropdown-content .dropdown-content a:hover {
+        background-color: rgba(236, 161, 75, 0.842); }
+      header .dropdown .dropdown-content .dropdown:hover .dropbtn {
+        background-color: #f79604; }
+      header .dropdown .dropdown-content a {
+        text-decoration: none;
+        color: black;
+        padding-right: 6px; }
+
+.portada {
+  display: flex;
+  width: 100%; }
+
+.inicio {
+  margin: 40px 0 40px 0;
+  justify-items: center; }
+  .inicio .puntuacion {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2px; }
+
+.servicios {
+  width: 100%;
+  display: flex;
+  background-image: url(../assets/img/lavanda.jpeg);
+  background-size: cover;
+  flex-direction: column; }
+  .servicios .servicios-info {
+    margin: 5% 20% 5% 20%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: rgba(240, 234, 223, 0.647479); }
+    .servicios .servicios-info ul {
+      margin: 2% 10% 2% 10%;
+      list-style: none;
+      line-height: 200%;
+      background-color: rgba(240, 234, 223, 0.938); }
+
+.location {
+  display: block;
+  justify-items: center; }
+  .location h1 {
+    width: 100%; }
+  .location .ubicacion video {
+    width: 100%; }
+  .location .ubicacion iframe {
+    width: 100%;
+    margin: 5% 0% 5% 0%; }
+
+.titulo {
+  padding: 0% 10% 5% 10%;
+  text-align: center; }
+
+.unidades {
+  display: flex;
+  margin-bottom: 5%;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .unidades img {
+    border-radius: 50%;
+    border-color: #FF9A62;
+    border-width: 2px; }
+  .unidades img:hover {
+    outline: 5px solid #FFBF75; }
+  .unidades .loft2 {
+    margin: 2%;
+    padding: 0px;
+    width: 20%; }
+  .unidades .cab2 {
+    margin: 2%;
+    padding: 0px;
+    width: 20%; }
+  .unidades .suite3 {
+    margin: 2%;
+    padding: 0px;
+    width: 20%; }
+  .unidades .cab4 {
+    margin: 2%;
+    padding: 0px;
+    width: 20%; }
+
+.caracteristicas {
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  .caracteristicas .lista-unidades {
+    width: 50%;
+    padding-right: 3%;
+    text-align: center; }
+    .caracteristicas .lista-unidades ul {
+      list-style: none;
+      line-height: 150%; }
+  .caracteristicas .foto-unidad {
+    width: 50%; }
+
+.contacto {
+  height: 50%;
+  width: 100%;
+  display: block;
+  text-align: center; }
+  .contacto .form1 {
+    margin: 1%;
+    padding: 1%;
+    width: 80%; }
+  .contacto .form2 {
+    margin: 1%;
+    padding: 1%;
+    width: 39%; }
+  .contacto .form3 {
+    margin: 1%;
+    padding: 1%;
+    width: 39%; }
+  .contacto .form4 {
+    margin: 1%;
+    padding: 1%;
+    width: 25.5%; }
+  .contacto .form5 {
+    margin: 1%;
+    padding: 1%;
+    width: 25.5%; }
+  .contacto .form6 {
+    margin: 1%;
+    padding: 1%;
+    width: 25.5%; }
+  .contacto .form7 {
+    margin: 1%;
+    padding: 1%;
+    width: 80%; }

@@ -1,0 +1,31 @@
+.titulo{
+    padding: 0% 10% 5% 10%;
+    text-align: center;
+}
+
+.unidades{
+    display: flex;
+    margin-bottom: 5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    img{
+        border-radius: 50%;
+        border-color: #FF9A62;
+        border-width: 2px;
+    }
+    img:hover{
+        outline: 5px solid #FFBF75;
+    }
+    .loft2{
+        @include formato(2%, 0px, 20%)
+    }
+    .cab2{
+        @include formato(2%, 0px, 20%)
+    }
+    .suite3{
+        @include formato(2%, 0px, 20%)
+    }
+    .cab4{
+        @include formato(2%, 0px, 20%)
+    }
+}

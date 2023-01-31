@@ -1,0 +1,17 @@
+.caracteristicas{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .lista-unidades{
+        width: 50%;
+        padding-right: 3%;
+        text-align: center;
+        ul{
+            list-style: none;
+            line-height: 150%;
+        }
+    }
+    .foto-unidad{
+        width: 50%;
+    }
+}

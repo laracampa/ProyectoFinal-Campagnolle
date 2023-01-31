@@ -1,0 +1,16 @@
+.portada{
+    display: flex;
+    width: 100%;
+}
+.inicio{
+    margin: 40px 0 40px 0;
+    justify-items: center;
+    .puntuacion{
+        align-self: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 2px;
+    }
+}
+
