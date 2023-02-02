@@ -159,13 +159,10 @@ header {
   justify-items: center; }
   .location h1 {
     width: 100%; }
-  .location .ubicacion video {
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%; }
-  .location .ubicacion iframe {
-    width: 100%;
-    margin: 5% 0% 5% 0%; }
+  .location iframe {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%; }
 
 .titulo {
   padding: 0% 10% 5% 10%;
