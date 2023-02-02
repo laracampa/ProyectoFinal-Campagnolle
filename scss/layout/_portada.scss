@@ -1,0 +1,73 @@
+.portada-tp{
+    background-image: url(../assets/img/star2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    h1{
+        margin-top: 5%;
+        @import url('https://fonts.googleapis.com/css?family=Suez+One');
+        font-family: "Suez One", serif;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-variant: small-caps;
+        text-align: center;
+        font-size: 50px;
+        color: #f0386c;
+        text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+    }
+    .links{
+        display: flex;
+        justify-content: space-around;
+        grid-template-columns: repeat(4,25%);
+        grid-template-areas: "a1 a2 a3 a4";
+        flex-wrap: wrap;
+        .a1{
+            grid-area: a1;
+        }
+        .a2{
+            grid-area: a2;
+        }
+        .a3{
+            grid-area: a3;
+        }
+        .a4{
+            grid-area: a4;
+        }
+        a{
+            margin-top: 10%;
+            box-shadow: 2px 3px 0px 0px #8a2159;
+            box-sizing: 25%;
+            background-color:#ad255b;
+            border-radius:10px;
+            border:2px solid #cf1b4e;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            padding:10px 25px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #800536;
+            width: 160px;
+            text-align: center;
+            }
+        a:hover {
+            background-color:#f0386c;
+            }
+        a:active {
+            position:relative;
+            top:1px;
+        }
+    }
+    h3{
+        padding-top: 150px;
+        font-family: "Suez One", serif;
+        font-weight: bold;
+        text-transform: capitalize;
+        font-variant: small-caps;
+        color: #f0386c;
+        text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+    }
+    .presupuesto {
+        max-width: 100%;
+        height: auto;
+    }
+}

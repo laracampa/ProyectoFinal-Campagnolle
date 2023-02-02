@@ -24,5 +24,14 @@
     .form7{
         @include formato(1%, 1%, 80%)
     }
+    .enviar{
+        border-radius: 10px;
+        box-shadow: 1px 3px 3px #666666;
+        color: #ffffff;
+        font-style: italic;
+        background: #F69037;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+    }
 }
 

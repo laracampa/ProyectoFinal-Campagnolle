@@ -4,8 +4,12 @@
     align-items: center;
     .lista-unidades{
         width: 50%;
-        padding-right: 3%;
+        padding: 5%;
         text-align: center;
+        p{
+            font-weight: bold;
+            padding-bottom: 5%;
+        }
         ul{
             list-style: none;
             line-height: 150%;

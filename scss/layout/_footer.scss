@@ -7,10 +7,9 @@
         margin: 0 auto;
         justify-items: center;
         align-items: center;
+        font-size: small;
         .footer1{
             padding: 30px;
-            font-size: small;
-            width: 33%;
             section{
                 display: flex;
                 gap: 5%;
@@ -22,7 +21,6 @@
         .footer3{
             padding: 30px;
             text-align: center;
-            font-size: small;
             width: 33%;
         }
     }
